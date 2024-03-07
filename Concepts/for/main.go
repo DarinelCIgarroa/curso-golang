@@ -42,14 +42,16 @@ func main() {
 		"tiger":  "🐅",
 		"shark":  "🦈",
 	}
-	// Remplazar un elemento del map
+
 	for key, value := range animals {
+		// Remplazar un elemento del map
 		if key == "horse" {
 			animals[key] = "🐎"
 		}
 		fmt.Println(key, value)
 	}
-	fmt.Println(animals)
+
+	fmt.Println("animals", animals)
 	// Recorrer un string
 	myName := "Darinel"
 
